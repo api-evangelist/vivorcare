@@ -1,8 +1,25 @@
 aid: vivorcare
 name: VivorCare
-description: VivorCare is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: OncoveryCare (VivorCare) is the first virtual survivorship clinic for people living
+  with and beyond cancer. Backed by Techstars, the company pairs survivorship-trained care teams
+  with a virtual-first platform delivering physical and mental health support, personalized
+  survivorship care planning, patient navigation to community resources and referrals, and survivor
+  education. It partners with oncology providers such as New York Cancer & Blood Specialists (NYCBS)
+  to extend post-treatment care. OncoveryCare operates a public website and blog but currently
+  publishes no public developer API, developer portal, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/vivorcare/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6629ab37aa54437857f8e80f/663d1e201a81d7235d897f50_oncoverycare-logo-horizontal-dark-teal-rgb-1000px-w-72ppi.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- Cancer Survivorship
+- Oncology
+- Telehealth
+- Virtual Care
+- Digital Health
+- Techstars
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,18 @@ maintainers:
 common:
 - type: Website
   url: https://oncoverycare.com/
+- type: Blog
+  url: https://oncoverycare.com/blog
+- type: Support
+  url: https://oncoverycare.com/contact-us
+- type: PrivacyPolicy
+  url: https://oncoverycare.com/privacy-policy
+- type: TermsOfService
+  url: https://oncoverycare.com/terms
+- type: DomainSecurity
+  url: security/vivorcare-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
